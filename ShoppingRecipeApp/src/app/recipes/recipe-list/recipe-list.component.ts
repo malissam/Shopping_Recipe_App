@@ -8,7 +8,7 @@ import {Recipe} from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A test recipe', 'this is a test recipe','https://craftycoin.com/wp-content/uploads/2015/04/Recipes-header.png')
+    new Recipe('A test recipe', 'this is a test recipe','https://www.wholesomeyum.com/wp-content/uploads/2019/09/wholesomeyum-keto-chaffles-recipe-sweet-savory-5-ways-24.jpg')
   ];
   constructor() { }
 
